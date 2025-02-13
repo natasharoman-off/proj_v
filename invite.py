@@ -9,8 +9,8 @@ if "quiz_completed" not in st.session_state:
     st.session_state.quiz_score = 0
 
 # File paths (Update with actual video file paths)
-yes_video = "happy.mp4"  # Video for passing the quiz
-no_video = "sad.mp4"  # Video for failing the quiz
+yes_video = "https://drive.google.com/uc?export=download&id=10vUJ_hoLVS1rLJxwAtSWVXB1xiiVJ8k2"
+no_video = "https://drive.google.com/uc?export=download&id=1o63PqUeckH2PjpF36oyTBeMj_OccwGCk"
 
 # Quiz Section
 if not st.session_state.quiz_completed:
